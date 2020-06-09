@@ -3,18 +3,26 @@
 	<head>
 		<title>Donut Whole | Vegan Donut Shop</title>
 		<meta name="description" content="Donut Whole is a fictional website that is in Santa Monica CA">
-		
+		<!--Google FOnts integration: https://fonts.google.com/-->>
+		<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 		<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
 		<script src="js/modernizr.js"></script>
+
+		<!--Custom css-->
+		<link href="css/styles.css" rel="stylesheet">
+
+		<!--Normalize to clean up & standardize the browser default styles-->
 		<link href="css/Normalize.css" rel="stylesheet">
+
 	</head>
 	<body>
 				<div class="container">
 					<header class="main">
 						<nav>
-							<ul>
-								<li><a href="Location"></a>Location</li>
-								<li><a href="Menu"></a>Menu</li>
+							<ul class="clearfix">
+								<li><a href="Location">Location</a></li>
+								<li><a href="Menu">Menu</a></li>
 
 								<li id="logo"><a href="Donut Whole">Donut Whole</a></li>
 
@@ -32,10 +40,10 @@
 					</div><!--end container-->
 				</div>
 				<div class="container">
-					<div id="whole-story">
+					<div id="whole-story" class="clearfix">
 						<h1>The <em>Whole</em> Story</h1>
 						<p class="lead">We want to show the world what a <strong>real</strong> donut tastes like </p>
-						<div id="story">
+						<div id="story-excerpt">
 							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, quos! Velit voluptatem odit iusto. Esse minus laboriosam praesentium minima, cum sed officia, provident exercitationem a odit voluptatum ipsum saepe quis.</p>
 							<p><a href="">Read more of our story here.</a></p>
 						</div><!--end story-->
@@ -48,7 +56,7 @@
 
 					<hr>
 
-					<div id="news-evemts">
+					<div id="news-events" class="clearfix">
 
 						<div id="articles">
 							<h2>News, Events &amp; Such</h2>
@@ -89,12 +97,12 @@
 
 					</div><!--end news events-->
 
-					<hr></hr>
+					<hr>
 
 				</div><!--end of container-->
 
 				<footer class="main">
-					<div class="container">
+					<div class="container clearfix">
 						<div id="uncopyright">
 							<p>Uncopyright &copy; <strong>Zeynep Kaya</strong></p>
 							<p>Please recycle this code responsibly</p>
